@@ -1,10 +1,6 @@
 function lab7() {
-	document.getElementById ("hl");
-	hl.innerHTML = "Hello, World!";
-	hl.setAttribute("style", "color: green");
-	
-	document.getElementById("hl").className = ("new");
-
+	const hl = document.getElementById ("hl");
+    hl.remove();
 	
 	let h1 = document.createElement("h1");
 	h1.innerHTML = "Lab7 Assignment";
